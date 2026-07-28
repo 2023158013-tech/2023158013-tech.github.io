@@ -98,7 +98,7 @@
 > 메시지 암호화, 다대다 채팅방, 방명록 및 알림 읽음 상태 테이블 간 연관관계를 최적화한 최종 DB 구조입니다.
 > Flyway 사용으로 최신화가 안되고 방치되던 ERD를 주도적으로 최신화를 수행했습니다.
 
-![모듈 5 ERD](이미지_링크_주소)
+![모듈 5 ERD]([이미지_링크_주소](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/m5ERD.png))
 ---
 
 ## 5. 한계 및 향후 개선 과제 (Limitations & Next Steps)
