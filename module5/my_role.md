@@ -33,7 +33,7 @@
 
 > **[증적 자료 1] 메시지 암호화 어노테이션 구현 및 DB 암호화 저장 결과**
 > 
-> ![MessageJpaEntity 암호화 어노테이션](./module5/images/encrypt_code.png)
+> ![MessageJpaEntity 암호화 어노테이션](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/encrypt_code.png)
 > ![DB 암호화 저장 화면](./module5/images/db_encrypted.png)
 
 * **기존 평문 더미 데이터 호환 예외 안전망**:
