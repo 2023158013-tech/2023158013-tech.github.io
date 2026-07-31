@@ -34,7 +34,7 @@
 > **[증적 자료 1] 메시지 암호화 어노테이션 구현 및 DB 암호화 저장 결과**
 > 
 > ![MessageJpaEntity 암호화 어노테이션](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/encrypt_code.png)
-> ![DB 암호화 저장 화면](./module5/images/db_encrypted.png)
+> ![DB 암호화 저장 화면](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/db_encrypted.png)
 
 * **기존 평문 더미 데이터 호환 예외 안전망**:
   * 암호화 도입 전 기존 DB에 존재하는 평문 더미 데이터를 복호화 시도 시 발생하는 예외를 방지하도록 컨버터 내 예외 처리 구현.
