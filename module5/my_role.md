@@ -32,8 +32,9 @@
   * DB 유출 시에도 메시지가 평문으로 노출되지 않는 보안성 확보.
 
 > **[증적 자료 1] 메시지 암호화 어노테이션 구현 및 DB 암호화 저장 결과**
-> 
+▼ MessageJpaEntity 암호화 어노테이션
 > ![MessageJpaEntity 암호화 어노테이션](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/encrypt_code.png)
+▼ DB 암호화 저장 화면
 > ![DB 암호화 저장 화면](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/db_encrypted.png)
 
 * **기존 평문 더미 데이터 호환 예외 안전망**:
@@ -41,9 +42,11 @@
   * 특정 접두사(`ENC:`)가 없거나 복호화 실패 시 원본 평문 그대로 반환하도록 처리하여 더미 데이터 호환성 유지.
 
 > **[증적 자료 2] 접두사 기반 평문 예외 처리 코드 & HTTP 테스트 복호화 확인**
-> 
-> ![평문 예외 처리 코드](./module5/images/fallback_code.png)
-> ![HTTP 테스트 복호화 응답](./module5/images/decrypted_response.png)
+>
+▼ 평문(더미 데이터) 예외 처리 코드
+> ![평문 예외 처리 코드](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/fallback_code.png)
+▼ HTTP 테스트 복호화 응답
+> ![HTTP 테스트 복호화 응답](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/decrypted_response.png)
 
 * **키(Key) 관리 리스크 차단**:
   * 암호화 키 변경 시 기존 암호화 데이터 복구가 불가능한 리스크를 인지하여 키 값을 별도 보관 조치.
