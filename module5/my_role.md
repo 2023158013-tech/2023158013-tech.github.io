@@ -72,8 +72,8 @@
   * 포스트맨 환경의 한계를 극복하기 위해 직접 테스트용 HTML 웹소켓 스크립트를 제작하여 F12 콘솔 기반 사전 검증 완결.
 
 > **[증적 자료 3] 4인 동시 입력 브라우저 F12 콘솔 웹소켓 검증**
-> 
-> ![4인 html 구성 및 F12 콘솔 검증](./module5/images/websocket_f12_test.png)
+▼ 4인 html 구성 및 F12 콘솔 검증
+> ![4인 html 구성 및 F12 콘솔 검증](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/websocket_f12_test.png)
 
 ### 2-1. 최종 Miro 설계도
 > 모듈3·4·5를 거쳐 완성된 친구·방명록·메시지·알림 도메인에 대한 Miro 설계입니다.
@@ -93,8 +93,8 @@
   * 컨트롤러 단에서 미입력 시 로그인 유저 ID를 채우도록 구현하여 서비스 계층 변경을 최소화.
 
 > **[증적 자료 4] 프론트엔드와의 협업 및 스펙 재설계 슬랙 소통**
-> 
-> ![슬랙 소통 내역](./module5/images/slack_communication.png)
+▼ 슬랙 소통 내역
+> ![슬랙 소통 내역](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/slack_communication.png)
 
 ### 3-2. 채팅방 멤버 목록 조회 (신규 추가 및 정렬 규격화)
 * **권한 검증**: 해당 채팅방 멤버가 아닐 경우 ➡️ `"해당 채팅방에 접근할 권한이 없습니다."` (403/400 예외 방어)
