@@ -70,5 +70,10 @@
 * Prometheus, Grafana, Loki 분산 모니터링 인프라 및 k6 시나리오 부하 테스트 설계
 * 다대다 채팅 확장 및 SQL `IN 절` 벌크 조회를 활용한 $O(1)$ 인메모리 매핑 성능 최적화
 
+#### 📦 [<span style="color: #1e88e5;">모듈 5: 보안/데이터 통합 및 AI 서빙·RAG 시스템 구축</span>](/module5/README)
+* **팀 구성**: 백엔드 5명(JSON 응답) / 프론트 2명
+* `AttributeConverter` 기반 **AES 양방향 메시지 암호화** 및 실시간 Typing Indicator 인프라 완성
+* **Flyway 마이그레이션 규칙 학습** 및 300여 건 이상의 더미 데이터 정합성 수선 (DBA 역할 완수)
+
 ---
 💡 <span style="color: #1e88e5;"><b>원하시는 상세 기록 페이지를 클릭하여 기술적 고민의 흔적을 확인해 보세요!</b></span>
