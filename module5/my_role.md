@@ -129,7 +129,7 @@
   * 300여 건 이상의 더미 데이터 연관관계를 직접 전수 검증 및 수선하여 배포 환경의 통합 테스트 가동 안정성 확보.
 
 ### 4-1. 모듈 5 데이터베이스 구조 (ERD)
-> 메시지 암호화, 다대다 채팅방, 방명록 및 알림 읽음 상태 테이블 간 연관관계를 최적화한 최종 DB 구조입니다.
+> 친구, 메시지, 방명록 및 알림 테이블을 포함한 최종 DB 구조입니다.
 > Flyway 사용으로 최신화가 안되고 방치되던 ERD를 주도적으로 최신화를 수행했습니다.
 
 ![모듈 5 ERD](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/m5ERD.png)
