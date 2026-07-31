@@ -55,10 +55,10 @@
   * 타 도메인의 더미 데이터 연관관계를 직접 전수 검증 및 수선하여, 배포 환경에서 발생할 수 있는 유효성 에러를 사전에 방지했습니다.
  
 #### 📍 모듈 5 데이터베이스 구조 (ERD)
-> 메시지 암호화, 다대다 채팅방, 방명록 및 알림 읽음 상태 테이블 간 연관관계를 최적화한 최종 DB 구조입니다.
+> 친구, 메시지, 방명록 및 알림 테이블을 포함한 최종 DB 구조입니다.
 > Flyway 사용으로 최신화가 안 되고 방치되던 ERD를 주도적으로 최신화를 수행했습니다.
 
-![모듈 5 ERD](./module5/images/m5ERD.png)
+![모듈 5 ERD](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/m5ERD.png)
 
 ---
 
@@ -180,7 +180,7 @@
 #### 📍 모듈 3~5 통합 도메인 아키텍처 (Miro)
 > 모듈 3·4·5를 거쳐 완성된 친구·방명록·메시지·알림 도메인에 대한 전체 Miro 설계도입니다.
 
-![Miro 아키텍처 흐름도](./module5/images/m5Miro.png)
+![Miro 아키텍처 흐름도](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/m5Miro.png)
 
 ### 📜 메시지 도메인 4단계 고도화 소회 (모듈 1부터 모듈 5까지 마치며)
 * **단순 콘솔 창에서 엔터프라이즈급 실시간 인프라까지**:
