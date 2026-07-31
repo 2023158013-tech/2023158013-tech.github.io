@@ -197,7 +197,7 @@
 
 ▲ 버그 리포트 제출 내역
 
-> ![UX 개선 피드백 제출 내역](이미지경로2.png)
+> ![UX 개선 피드백 제출 내역](/module5/images/reviewer-feedback.png)
 
 ▲ UX 개선사항 피드백 제출 내역
 
