@@ -31,9 +31,11 @@
   * `MessageJpaEntity`의 `content` 필드에 `@Convert(converter = MessageContentEncryptor.class)` 어노테이션을 적용하여 메시지 전송 시 자동 AES 암호화, 조회 시 자동 복호화 처리.
   * DB 유출 시에도 메시지가 평문으로 노출되지 않는 보안성 확보.
 
-> **[증적 자료 1] 메시지 암호화 어노테이션 구현 및 DB 암호화 저장 결과**
+> **메시지 암호화 어노테이션 구현 및 DB 암호화 저장 결과**
+
 ▼ MessageJpaEntity 암호화 어노테이션
 > ![MessageJpaEntity 암호화 어노테이션](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/encrypt_code.png)
+
 ▼ DB 암호화 저장 화면
 > ![DB 암호화 저장 화면](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/db_encrypted.png)
 
@@ -41,10 +43,11 @@
   * 암호화 도입 전 기존 DB에 존재하는 평문 더미 데이터를 복호화 시도 시 발생하는 예외를 방지하도록 컨버터 내 예외 처리 구현.
   * 특정 접두사(`ENC:`)가 없거나 복호화 실패 시 원본 평문 그대로 반환하도록 처리하여 더미 데이터 호환성 유지.
 
-> **[증적 자료 2] 접두사 기반 평문 예외 처리 코드 & HTTP 테스트 복호화 확인**
->
+> **접두사 기반 평문 예외 처리 코드 & HTTP 테스트 복호화 확인**
+
 ▼ 평문(더미 데이터) 예외 처리 코드
 > ![평문 예외 처리 코드](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/fallback_code.png)
+
 ▼ HTTP 테스트 복호화 응답
 > ![HTTP 테스트 복호화 응답](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/decrypted_response.png)
 
@@ -71,7 +74,8 @@
 * **독립 HTML/JS 테스트 스크립트 작성**:
   * 포스트맨 환경의 한계를 극복하기 위해 직접 테스트용 HTML 웹소켓 스크립트를 제작하여 F12 콘솔 기반 사전 검증 완결.
 
-> **[증적 자료 3] 4인 동시 입력 브라우저 F12 콘솔 웹소켓 검증**
+> **4인 동시 입력 브라우저 F12 콘솔 웹소켓 검증**
+
 ▼ 4인 html 구성 및 F12 콘솔 검증
 > ![4인 html 구성 및 F12 콘솔 검증](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/websocket_f12_test.png)
 
@@ -92,7 +96,8 @@
   * 파라미터가 있고 로그인 유저 ID와 다를 경우 ➔ "내가 해당 도시에 남긴 방명록"으로 서버 단에서 판단 및 반환.
   * 컨트롤러 단에서 미입력 시 로그인 유저 ID를 채우도록 구현하여 서비스 계층 변경을 최소화.
 
-> **[증적 자료 4] 프론트엔드와의 협업 및 스펙 재설계 슬랙 소통**
+> **프론트엔드와의 협업 및 스펙 재설계 슬랙 소통**
+
 ▼ 슬랙 소통 내역
 > ![슬랙 소통 내역](https://raw.githubusercontent.com/seojeongrim-tech/seojeongrim-tech.github.io/main/module5/images/slack_communication.png)
 
