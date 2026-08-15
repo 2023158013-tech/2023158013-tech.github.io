@@ -143,3 +143,10 @@
   * 알림 타입 및 메시지 상태 값 처리를 위해 ENUM 클래스를 정의했으나, 일부 서비스 로직에서 문자열(`String`) 직접 비교 방식이 잔존함. 타입 안전성(Type Safety) 확보를 위한 정밀 코드 리팩토링 필요.
 * **Websocket 최소 갱신 시그널 및 N+1 문제**:
   * 유저 급증 시 웹소켓 갱신을 위한 CUD 연산 과정에서 조회 서비스가 추가 호출되는 잔존 N+1 구조를 발견함. 향후 이벤트 기반 메시징 도입을 통한 N+1 조회 부담 개선 필요.
+
+### 🔗 소스 코드 확인
+* [LMS 친구 & 메시징 & 알림 프로젝트 전체 소스 코드 (GitHub)](https://github.com/seojeongrim-tech/wanted_project/tree/main/module05)
+* 친구(방명록) 관련 핵심 도메인: /friend 패키지
+* 메시지 관련 핵심 도메인: /message 패키지
+* 알림 관련 핵심 도메인: /notification 패키지
+* 웹소켓 관련 코드: /global/infrastructure/config 패키지 
