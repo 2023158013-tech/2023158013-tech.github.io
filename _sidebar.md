@@ -22,7 +22,7 @@
   * [📝 학습 내용 및 주석 정리](/module4/lecture_notes)
 
 
-* [📁 **모듈 5: 2026.07.04 - 2026.07.27**](/module4/README)
+* [📁 **모듈 5: 2026.07.04 - 2026.07.27**](/module5/README)
   * [🎓 프로젝트 회고](/module5/project_review)
   * [⚙️ 내가 맡은 기능](/module5/my_role)
   * [📝 학습 내용 및 주석 정리](/module5/lecture_notes)
