@@ -1,6 +1,6 @@
-# 📔 Module 5: 보안/데이터 통합 및 AI 서빙·RAG 인프라 실무 기록
+# 📔 Module 5: 보안/데이터 통합 개발 및 AI 서빙·RAG 인프라 학습 기록
 > **기간: 2026.07.04 ~ 2026.07.27**
-> Spring Boot 기반의 실시간 메시징 암호화 인프라와 Flyway DBA 관리를 완성함과 동시에, FastAPI 기반 AI 서빙, ChromaDB VectorDB 연동, LangChain RAG 파이프라인 및 Spring Boot와의 Function Calling 통합 아키텍처를 구축한 실무 학습·개발 기록입니다.
+> Spring Boot 기반의 실시간 메시징 암호화 인프라와 Flyway DBA 관리를 완성함과 동시에, FastAPI 기반 AI 서빙, ChromaDB VectorDB 연동, LangChain RAG 파이프라인 및 Spring Boot와의 Function Calling 통합 아키텍처를 구축한 실무 학습 기록입니다.
 * 팀 구성: 백엔드 5명 (JSON 응답 설계) / 프론트엔드 2명
 
 ---
