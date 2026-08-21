@@ -26,3 +26,7 @@
   * [🎓 프로젝트 회고](/module5/project_review)
   * [⚙️ 내가 맡은 기능](/module5/my_role)
   * [📝 학습 내용 및 주석 정리](/module5/lecture_notes)
+
+* [📁 **모듈 6: 2026.07.28 - 2026.08.20**](/module6/README)
+  * [🎓 프로젝트 회고](/module6/project_review)
+  * [⚙️ 내가 맡은 기능](/module6/my_role)
