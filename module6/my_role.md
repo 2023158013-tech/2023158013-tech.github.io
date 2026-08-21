@@ -251,10 +251,8 @@
 
 ### 🔗 소스 코드 확인
 
-* [Vit_S-GroupwareService-BackEnd (GitHub)](https://github.com/wanted-VitS-Project/Vit_S-GroupwareService-BackEnd)
+* [그룹웨어 4개 도메인 프로젝트 전체 소스 코드 (GitHub)](https://github.com/seojeongrim-tech/wanted_project/tree/main/module06)
 * 정산·재무 핵심 도메인: `com.group3.vitamins.finance`, `com.group3.vitamins.settlement` 패키지
 * 체크리스트 도메인: `com.group3.vitamins.checklist` 패키지
 * 이미지 도메인: `com.group3.vitamins.image` 패키지
-
-> ⚠️ 스크린샷 4장은 자리만 잡아뒀습니다(`./images/m6-*.png`) — 실제 캡처(코드 화면, 마이그레이션, EXPLAIN 결과, API 응답 비교 등)를 채워 넣어주세요.
 
