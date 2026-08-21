@@ -217,6 +217,6 @@ CodeRabbit 리뷰로 재무 도메인이 처음부터 JPA를 거의 안 쓰고 M
 
 ## 🔗 관련 저장소
 
-* [Vit_S-GroupwareService-BackEnd (GitHub)](https://github.com/wanted-VitS-Project/Vit_S-GroupwareService-BackEnd)
+* [그룹웨어 4개 도메인 프로젝트 전체 소스 코드 (GitHub)](https://github.com/seojeongrim-tech/wanted_project/tree/main/module06)
 * 정산·재무 핵심 도메인: `com.group3.vitamins.finance`, `com.group3.vitamins.settlement` 패키지
 * 텍스트/체크리스트/이미지 도메인: `com.group3.vitamins.text`, `com.group3.vitamins.checklist`, `com.group3.vitamins.image` 패키지
